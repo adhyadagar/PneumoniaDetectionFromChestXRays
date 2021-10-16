@@ -8,6 +8,8 @@
 
 # Part 3: Data
 - Data is from the NIH Chest X-ray Dataset and consists of 112,000 chest x-rays with disease labels acquired from 30,000 patients.
+- It is also available on https://www.kaggle.com/nih-chest-xrays/data
+- The biggest limitation of this dataset is that image labels were NLP-extracted so there could be some erroneous labels but the NLP labeling accuracy is estimated to be >90%.
 
 # Part 4: Methodology
 - Recommend appropriate imaging modalities for common clinical applications of 2D medical imaging
