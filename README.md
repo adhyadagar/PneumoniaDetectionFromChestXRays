@@ -20,14 +20,15 @@
 
 # Part 5: Evaluation Metrics 
 
+
 # Part 6: Conclusion and Results
 
-# This project includes the dollowing files- 
- 1. EDA.ipynb: This is the file you will be performing the EDA.
-Build and train model.ipynb: This is the file you will be building and training your model.
-Inference.ipynb: This is the file you will be performing clinical workflow integration.
-.dcm files: They are the test files to test the clinical workflow integration.
-sample_labels.csv: This is the file that should be used to assess images in the pixel-level.
-FDA_Submission_Template.md: This is the template for you to create the FDA submission. Please copy the template into your choice of editor. Finish the documentation, save it as a .pdf file, and upload.
-Note: The NIH data for EDA and training is mounted in the Udacity Jupyter GPU workspace provided to you along with the code to load the data. Alternatively, you can download the data from the kaggle website and run it locally. You are STRONGLY recommended to complete the project using the Udacity workspace since the data is huge, and you will need GPU to accelerate the training process.
+
+# This project includes the following files- 
+ 1. EDA.ipynb: Script for performing EDA.
+ 2. Build and train model.ipynb: Script for building and training your model.
+ 3. Inference.ipynb: Script for performing clinical workflow integration.
+ 4. .dcm files: They are the test files to test the clinical workflow integration.
+ 5. sample_labels.csv: This is the file to assess images in the pixel-level.
+ 6. FDA_Submission.pdf: Report for FDA clearance 
 
