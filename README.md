@@ -34,3 +34,15 @@
  5. sample_labels.csv: This is the file to assess images in the pixel-level.
  6. FDA_Submission.pdf: Report for FDA clearance 
 
+# Content of Inference.ipynb:
+
+## Clinical Workflow Integration
+ The imaging data for training the model was transformed from DICOM format into .png to help aid in the image pre-processing and model training steps of this project. In the real world, however, the pixel-level imaging data are contained inside of standard DICOM files.
+ In this notebook I have creayed a DICOM wrapper that takes in a standard DICOM file and outputs data in the format accepted by the model. 
+ The following checks are also included in the wrapper-
+- Age
+- Image acquisition type (i.e. X-ray)
+- Image acquisition orientation (i.e. those present in your training data)
+- Body part in acquisition
+
+
