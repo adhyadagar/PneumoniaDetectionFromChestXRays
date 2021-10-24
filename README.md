@@ -16,7 +16,7 @@
 - Perform exploratory data analysis (EDA) on medical imaging data to inform model training and explain model performance
 - Establish the appropriate ‘ground truth’ methodologies for training algorithms to label medical images
 - Extract images from a DICOM dataset
-- Train common CNN architectures to classify 2D medical images
+- Performed transfer learning on pre-trained VGG-16 model to classify 2D medical images
 - Translate outputs of medical imaging models for use by a clinician
 - Plan necessary validations to prepare a medical imaging model for regulatory approval
 
